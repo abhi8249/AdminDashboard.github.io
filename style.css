@@ -1,0 +1,190 @@
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    color: #061A2D;
+    background: #f0f3fb;
+    height: 100vh;
+    position: fixed;
+  }
+  .nav1 ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .nav1 ul li{
+    padding: 20px;
+  }
+
+  /* Change the link color on hover */
+  .nav1 li a:hover {
+    opacity: 0.5;
+    background-color: #061A2D;
+    color: wheat;
+    
+
+  }
+  .al2 img{
+    border-radius: 10px;
+  }
+.all{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-column-gap: 80px;
+}
+.nav2 ul li{
+    display: inline;
+    display: inline;
+    float: right;
+    margin-top: -20px;
+    padding-right: 10px;
+    
+}
+*{
+    margin: 0;
+    padding: 2px;
+}
+h1{
+    width: 126px;
+}
+.nav2{
+height: 77px;
+margin-left: -80px;
+
+}
+body{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style:normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: 0;
+    color: #061A2D;
+    background: #f0f3fb;
+}
+
+.nav2 img{
+  width: 690px;
+}
+.c1 img{
+  width: 80px;
+  height: 70px;
+}
+.c2 img{
+  width: 80px;
+  height: 70px;
+}
+.c3 img{
+  width: 80px;
+  height: 70px;
+}
+
+.al2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+.card{
+    margin-top:15px;
+    border-radius: 15px;
+    border:white solid 2px;
+    padding-top: 10px;
+    width: 100%;
+  
+    
+}
+.card img{
+  width: 393px;
+  height: 159px;
+  border-radius: 39px;
+  opacity: 1.9;
+ padding: 10px;
+}
+.row1{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  height: 127px;
+  margin: 15px;
+  margin-left: -8px;
+  width: 99%;
+}
+.c1,.c2,.c3{
+  background-color: white;
+  border-radius: 20px;
+}
+.line{
+  width: 100%;
+
+  background-color: #382b2b;
+}
+.row2{
+  display: grid;
+  grid-template-columns: 350px 690px;
+  height: 300px;
+  margin-top:20px;
+  height: 400px;
+}
+.one{
+  background-color: white;
+ border-radius: 20px;
+  margin-right: 10px;
+
+}
+.two{
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+width: 120%;
+
+}
+.row2 img{
+  width: 50px;
+  float: left;
+ background-color: blue;
+ border-radius: 50%;
+}
+.ms-4{
+  padding-left: 42px;
+}
+input[type=button]{
+  border: blue solid 1px;
+  color: blue;
+  border-radius: 10px;
+  float: right;
+  margin-top:-30px;
+  width: 20%;
+}
+.row{
+  margin-left: 21px;
+  height: 406px;
+  width: 97%;
+}
+.row3{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.c4{
+  border: #000 solid1px;
+}
+.c5{
+  border: #000 solid1px;
+}
+#myChart{
+  display: block;
+    height: 410px;
+   
+}
+.ch{
+  padding:45px;
+  margin-top: -87px;
+}
+
+
+
+
+
+

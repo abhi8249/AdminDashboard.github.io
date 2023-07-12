@@ -1,0 +1,1213 @@
+
+<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from templates.iqonic.design/yofit/html/backend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Feb 2023 06:31:15 GMT -->
+<head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Yofit | Responsive Bootstrap 4 Admin Dashboard Template</title>
+      
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="https://templates.iqonic.design/yofit/html/assets/images/favicon.ico" />
+      <link rel="stylesheet" href="../assets/vendor/chartist/chartist.css">
+      <link rel="stylesheet" href="../assets/css/backend-plugin.min.css">
+      <link rel="stylesheet" href="../assets/css/backende209.css?v=1.0.0">
+      <link rel="stylesheet" href="../assets/vendor/%40fortawesome/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+      <link rel="stylesheet" href="../assets/vendor/remixicon/fonts/remixicon.css">  
+      <!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WNGH9RL');window.tag_manager_event='dashboard-preview';window.tag_manager_product='yofit';</script>
+    <!-- End Google Tag Manager -->
+    </head>
+  <body class="  ">
+    <!-- loader Start -->
+    <div id="loading">
+          <div id="loading-center">
+          </div>
+    </div>
+    <!-- loader END -->
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+      
+      <div class="iq-sidebar  sidebar-default ">
+          <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+              <a href="index-2.html" class="header-logo">
+                  <img src="../assets/images/logo.png" class="img-fluid" alt="logo">
+              </a>
+              <div class="iq-menu-bt-sidebar ml-0">
+                  <i class="las la-times wrapper-menu"></i>
+              </div>
+          </div>
+          <div class="data-scrollbar" data-scroll="1">
+              <nav class="iq-sidebar-menu">
+                  <ul id="iq-sidebar-toggle" class="iq-menu">
+                      <li class="active">
+                          <a href="index-2.html" class="svg-icon">                        
+                              <svg class="svg-icon"  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                              </svg>
+                              <span class="ml-4">Dashboards</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="trainers.html" class="svg-icon">
+                              <svg class="svg-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                              </svg>
+                              <span class="ml-4">Trainers</span>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a href="members.html" class="svg-icon">
+                             <svg  class="svg-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                              </svg>
+                              <span class="ml-4">Members</span>
+                          </a>
+                      </li>
+                      <li class=" ">
+                          <a href="calender.html"  class="svg-icon">
+                             <svg  class="svg-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                             </svg>
+                              <span class="ml-4">Calender</span>
+                          </a>
+                      </li>
+                      <li class=" ">
+                          <a href="payment.html" class="svg-icon">
+                              <svg  class="svg-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                              </svg>
+                              <span class="ml-4">Payment</span>
+                          </a>
+                      </li>
+                      <li class=" ">
+                          <a href="#otherpage" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                              <svg  class="svg-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                             </svg>
+                              <span class="ml-4">other page</span>
+                              <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                              </svg>
+                          </a>
+                          <ul id="otherpage" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+                                  <li class=" ">
+                                      <a href="#user" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash10" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline>
+                                          </svg>
+                                          <span class="ml-4">User Details</span>
+                                           <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="user" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="https://templates.iqonic.design/yofit/html/app/user-profile.html">
+                                                      <i class="las la-minus"></i><span>User Profile</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="https://templates.iqonic.design/yofit/html/app/user-add.html">
+                                                      <i class="las la-minus"></i><span>User Add</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="https://templates.iqonic.design/yofit/html/app/user-list.html">
+                                                      <i class="las la-minus"></i><span>User List</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class=" ">
+                                      <a href="#ui" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                         <svg class="svg-icon" id="p-dash11" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                          </svg>
+                                          <span class="ml-4">UI Elements</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="ui" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="ui-avatars.html">
+                                                      <i class="las la-minus"></i><span>Avatars</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-alerts.html">
+                                                      <i class="las la-minus"></i><span>Alerts</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-badges.html">
+                                                      <i class="las la-minus"></i><span>Badges</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-breadcrumb.html">
+                                                      <i class="las la-minus"></i><span>Breadcrumb</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-buttons.html">
+                                                      <i class="las la-minus"></i><span>Buttons</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-buttons-group.html">
+                                                      <i class="las la-minus"></i><span>Buttons Group</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-boxshadow.html">
+                                                      <i class="las la-minus"></i><span>Box Shadow</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-colors.html">
+                                                      <i class="las la-minus"></i><span>Colors</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-cards.html">
+                                                      <i class="las la-minus"></i><span>Cards</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-carousel.html">
+                                                      <i class="las la-minus"></i><span>Carousel</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-grid.html">
+                                                      <i class="las la-minus"></i><span>Grid</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-helper-classes.html">
+                                                      <i class="las la-minus"></i><span>Helper classes</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-images.html">
+                                                      <i class="las la-minus"></i><span>Images</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-list-group.html">
+                                                      <i class="las la-minus"></i><span>list Group</span>
+                                                  </a>
+                                              </li>
+                                              <li  class="">
+                                                  <a href="ui-media-object.html">
+                                                      <i class="las la-minus"></i><span>Media</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-modal.html">
+                                                      <i class="las la-minus"></i><span>Modal</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-notifications.html">
+                                                      <i class="las la-minus"></i><span>Notifications</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-pagination.html">
+                                                      <i class="las la-minus"></i><span>Pagination</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-popovers.html">
+                                                      <i class="las la-minus"></i><span>Popovers</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-progressbars.html">
+                                                      <i class="las la-minus"></i><span>Progressbars</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-typography.html">
+                                                      <i class="las la-minus"></i><span>Typography</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-tabs.html">
+                                                      <i class="las la-minus"></i><span>Tabs</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-tooltips.html">
+                                                      <i class="las la-minus"></i><span>Tooltips</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="ui-embed-video.html">
+                                                      <i class="las la-minus"></i><span>Video</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class=" ">
+                                      <a href="#auth" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash12" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+                                          </svg>
+                                          <span class="ml-4">Authentication</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="auth" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="auth-sign-in.html">
+                                                      <i class="las la-minus"></i><span>Login</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="auth-sign-up.html">
+                                                      <i class="las la-minus"></i><span>Register</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="auth-recoverpw.html">
+                                                      <i class="las la-minus"></i><span>Recover Password</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="auth-confirm-mail.html">
+                                                      <i class="las la-minus"></i><span>Confirm Mail</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="auth-lock-screen.html">
+                                                      <i class="las la-minus"></i><span>Lock Screen</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class="">
+                                      <a href="#form" class="collapsed svg-icon" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash13" width="24" height="24"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                                          </svg>
+                                          <span class="ml-4">Forms</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="form" class="iq-submenu collapse" data-parent="#otherpage">
+                                          <li class="">
+                                              <a href="form-layout.html">
+                                                  <i class="las la-minus"></i><span class="">Form Elements</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-input-group.html" class="svg-icon">
+                                                 <i class="las la-minus"></i><span class="">Form Input</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-validation.html" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Validation</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-switch.html" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Switch</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-chechbox.html" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Checkbox</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-radio.html" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Radio</span>
+                                              </a>
+                                          </li>
+                                          <li class="">
+                                              <a href="form-textarea.html" class="svg-icon">
+                                                  <i class="las la-minus"></i><span class="">Form Textarea</span>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </li>
+                                  <li class=" ">
+                                      <a href="#table" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash14" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+                                          </svg>
+                                          <span class="ml-4">Table</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="table" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="tables-basic.html">
+                                                      <i class="las la-minus"></i><span>Basic Tables</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="table-data.html">
+                                                      <i class="las la-minus"></i><span>Data Table</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="table-tree.html">
+                                                      <i class="las la-minus"></i><span>Table Tree</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class=" ">
+                                      <a href="#pricing" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash16" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                          </svg>
+                                          <span class="ml-4">Pricing</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="pricing" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="pricing-1.html">
+                                                      <i class="las la-minus"></i><span>Pricing 1</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="pricing-2.html">
+                                                      <i class="las la-minus"></i><span>Pricing 2</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class="">
+                                      <a href="pages-invoice.html" class="svg-icon">
+                                          <svg class="svg-icon" id="p-dash07" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+                                          </svg>
+                                          <span class="ml-4">Invoice</span>
+                                      </a>
+                                  </li>
+                                  <li class=" ">
+                                      <a href="#pages-error" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                          <svg class="svg-icon" id="p-dash17" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                          </svg>
+                                          <span class="ml-4">Error</span>
+                                          <svg class="svg-icon iq-arrow-right arrow-active" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                          </svg>
+                                      </a>
+                                      <ul id="pages-error" class="iq-submenu collapse" data-parent="#otherpage">
+                                              <li class="">
+                                                  <a href="pages-error.html">
+                                                      <i class="las la-minus"></i><span>Error 404</span>
+                                                  </a>
+                                              </li>
+                                              <li class="">
+                                                  <a href="pages-error-500.html">
+                                                      <i class="las la-minus"></i><span>Error 500</span>
+                                                  </a>
+                                              </li>
+                                      </ul>
+                                  </li>
+                                  <li class="">
+                                      <a href="pages-blank-page.html">
+                                          <svg class="svg-icon" id="p-dash18" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                              <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+                                          </svg>
+                                          <span class="ml-4">Blank Page</span>
+                                      </a>
+                                  </li>
+                                  <li class="">
+                                          <a href="pages-maintenance.html">
+                                              <svg class="svg-icon" id="p-dash19" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                                              </svg>
+                                              <span class="ml-4">Maintenance</span>
+                                          </a>
+                                  </li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </nav>
+                  <div class="p-3"></div>
+              </div>
+          </div>      <div class="iq-top-navbar">
+          <div class="iq-navbar-custom">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                  <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
+                      <i class="ri-menu-line wrapper-menu"></i>
+                      <a href="index-2.html" class="header-logo">
+                          <img src="../assets/images/logo.png" class="img-fluid" alt="logo">
+      
+                      </a>
+                  </div>
+                  <h3 class="breadcrumb-title">Welcome, Dianne Russell</h3>
+                  
+                  <div class="d-flex align-items-center">
+                      <!--<div class="change-mode">
+                          <div class="custom-control custom-switch custom-switch-icon custom-control-inline">
+                              <div class="custom-switch-inner">
+                                  <p class="mb-0"> </p>
+                                  <input type="checkbox" class="custom-control-input" id="dark-mode" data-active="true">
+                                  <label class="custom-control-label" for="dark-mode" data-mode="toggle">
+                                      <span class="switch-icon-left"><i class="a-left ri-moon-clear-line"></i></span>
+                                      <span class="switch-icon-right"><i class="a-right ri-sun-line"></i></span>
+                                  </label>
+                              </div>
+                          </div>
+                      </div>-->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-label="Toggle navigation">
+                          <i class="ri-menu-3-line"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto navbar-list align-items-center">
+                              <li class="nav-item nav-icon dropdown">
+                                  <div class="iq-search-bar device-search mr-2">
+                                      <form action="#" class="searchbox">
+                                          <input type="text" class="text search-input" placeholder="Search here...">
+                                          <a class="search-link" href="#"><i class="ri-search-line"></i></a>
+                                      </form>
+                                  </div>
+                              </li>
+                              <li class="nav-item nav-icon dropdown">
+                                  <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton"
+                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                          stroke-linejoin="round" class="feather feather-bell">
+                                          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                          <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                      </svg>
+                                      <span class="bg-primary "></span>
+                                  </a>
+                                  <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <div class="card shadow-none m-0">
+                                          <div class="card-body p-0 ">
+                                              <div class="cust-title p-3">
+                                                  <div class="d-flex align-items-center justify-content-between">
+                                                      <h5 class="mb-0">Notifications</h5>
+                                                      <a class="badge badge-primary badge-card" href="#">3</a>
+                                                  </div>
+                                              </div>
+                                              <div class="px-3 pt-0 pb-0 sub-card">
+                                                  <a href="#" class="iq-sub-card">
+                                                      <div class="media align-items-center cust-card py-3 border-bottom">
+                                                          <div class="">
+                                                              <img class="avatar-50 rounded-small"
+                                                                  src="../assets/images/user/01.jpg" alt="01">
+                                                          </div>
+                                                          <div class="media-body ml-3">
+                                                              <div class="d-flex align-items-center justify-content-between">
+                                                                  <h6 class="mb-0">Emma Watson</h6>
+                                                                  <small class="text-dark"><b>12 : 47 pm</b></small>
+                                                              </div>
+                                                              <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                          </div>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="iq-sub-card">
+                                                      <div class="media align-items-center cust-card py-3 border-bottom">
+                                                          <div class="">
+                                                              <img class="avatar-50 rounded-small"
+                                                                  src="../assets/images/user/02.jpg" alt="02">
+                                                          </div>
+                                                          <div class="media-body ml-3">
+                                                              <div class="d-flex align-items-center justify-content-between">
+                                                                  <h6 class="mb-0">Ashlynn Franci</h6>
+                                                                  <small class="text-dark"><b>11 : 30 pm</b></small>
+                                                              </div>
+                                                              <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                          </div>
+                                                      </div>
+                                                  </a>
+                                                  <a href="#" class="iq-sub-card">
+                                                      <div class="media align-items-center cust-card py-3">
+                                                          <div class="">
+                                                              <img class="avatar-50 rounded-small"
+                                                                  src="../assets/images/user/03.jpg" alt="03">
+                                                          </div>
+                                                          <div class="media-body ml-3">
+                                                              <div class="d-flex align-items-center justify-content-between">
+                                                                  <h6 class="mb-0">Kianna Carder</h6>
+                                                                  <small class="text-dark"><b>11 : 21 pm</b></small>
+                                                              </div>
+                                                              <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                          </div>
+                                                      </div>
+                                                  </a>
+                                              </div>
+                                              <a class="right-ic btn btn-primary btn-block position-relative p-2" href="#"
+                                                  role="button">
+                                                  View All
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="nav-item nav-icon dropdown caption-content">
+                                  <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton4"
+                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <img src="../assets/images/user/1.png" class="img-fluid rounded-circle" alt="user">
+                                  </a>
+                                  <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <div class="card shadow-none m-0">
+                                          <div class="card-body p-0 text-center">
+                                              <div class="media-body profile-detail text-center">
+                                                  <img src="../assets/images/page-img/profile-bg.png" alt="profile-bg"
+                                                      class="rounded-top img-fluid mb-4">
+                                                  <img src="../assets/images/user/1.png" alt="profile-img"
+                                                      class="rounded profile-img img-fluid avatar-70">
+                                              </div>
+                                              <div class="p-3">
+                                                  <h5 class="mb-1">dianne@property.com</h5>
+                                                  <p class="mb-0">Since 10 march, 2020</p>
+                                                  <div class="d-flex align-items-center justify-content-center mt-3">
+                                                      <a href="https://templates.iqonic.design/yofit/html/app/user-profile.html" class="btn border mr-2">Profile</a>
+                                                      <a href="auth-sign-in.html" class="btn border">Sign Out</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+      <div class="modal fade" id="new-order" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                  <div class="modal-body">
+                      <div class="popup text-left">
+                          <h4 class="mb-3">New Order</h4>
+                          <div class="content create-workform bg-body">
+                              <div class="pb-3">
+                                  <label class="mb-2">Email</label>
+                                  <input type="text" class="form-control" placeholder="Enter Name or Email">
+                              </div>
+                              <div class="col-lg-12 mt-4">
+                                  <div class="d-flex flex-wrap align-items-ceter justify-content-center">
+                                      <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
+                                      <div class="btn btn-outline-primary" data-dismiss="modal">Create</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>      <div class="content-page">
+<div class="container-fluid">
+   <div class="row">
+      <div class="col-lg-12 col-xl-8">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="card card-block card-stretch card-height  yoga-background-image" style="background: url(../assets/images/layouts/yoga-bg.png) no-repeat scroll  center; background-size: cover;">
+                  <div class="card-body">
+                     <div class="d-flex flex-wrap align-items-center">
+                        <div class="col-lg-6 p-0">
+                           <h3 class=" mb-2 text-white">Hi,Dianne Russell...</h3>
+                           <p class="mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry,Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,.</p>
+                        </div>
+                        <div class="col-lg-6 ml-auto p-0">
+                           <img src="../assets/images/layouts/yoga-girls.png" class="img-fluid yoga-image mx-auto d-block" alt="image">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card card-block card-stretch card-height">
+                  <div class="card-body">
+                     <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-inline-block relative progress-chart-center mr-3">
+                           <div id="circle-progress-05" class="circle-progress circle-progress-primary" data-min-value="0" data-max-value="100" data-value="20" data-type="percent"></div>
+                           <small>
+                              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24" height="24" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                 <g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M121,68.5H45c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S129.291,68.5,121,68.5z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M121,188.5H45c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S129.291,188.5,121,188.5z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M91,128.5H15c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S99.291,128.5,91,128.5z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M482,203.5h-91v-60c0-26.346-32.229-40.218-51.22-21.202L219.789,242.289c-11.719,11.719-11.719,30.703,0,42.422    l68.789,68.789l-83.789,83.789c-11.719,11.719-11.719,30.703,0,42.422c11.718,11.718,30.703,11.719,42.422,0l105-105    c11.719-11.719,11.719-30.703,0-42.422L283.422,263.5L331,215.922V233.5c0,16.567,13.433,30,30,30h121c16.567,0,30-13.433,30-30    S498.567,203.5,482,203.5z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M280.14,51.04c-11.924-7.925-27.744-6.357-37.852,3.75l-82.5,82.5c-11.719,11.719-11.719,30.703,0,42.422    s30.704,11.718,42.423-0.001l65.112-65.112l21.934,15.8l29.306-29.306c4.902-4.902,10.684-8.707,17.007-11.678L280.14,51.04z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M198.578,305.922c-7.601-7.601-12.675-16.956-15.35-27.072L24.789,437.289c-11.719,11.719-11.719,30.703,0,42.422    c11.718,11.718,30.703,11.719,42.422,0l152.578-152.578L198.578,305.922z" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <circle cx="406" cy="68.5" r="45" fill="#081523" data-original="#000000" style="" class=""/>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                 </g>
+                              </svg>
+                           </small>
+                        </div>
+                        <div class="">
+                           <p class="text-capitalize mb-1">Jogging</p>
+                           <h4>20km</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card card-block card-stretch card-height">
+                  <div class="card-body">
+                     <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-inline-block relative progress-chart-center mr-3">
+                           <div id="circle-progress-06" class="circle-progress circle-progress-danger" data-min-value="0" data-max-value="100" data-value="30" data-type="percent"></div>
+                           <small>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" x="0" y="0" viewBox="0 0 370.001 370.001" style="enable-background:new 0 0 24 24" xml:space="preserve" class="">
+                                 <g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M260.422,314.065c-3.338-0.517-5.858-0.875-7.909-1.164c-6.301-0.895-7.993-1.135-15.359-3.428   c-2.903-0.904-14.259-12.358-14.259-34.775c0-28.879,6.857-54.382,9.803-64.005c0.078-0.251,0.27-0.978,0.536-1.962   c0.487-1.807,4.062-12.719,4.062-12.719c1.938-5.551,3.944-11.293,5.247-17.191l0.07-0.302c1.967-8.54,8.424-39.756,8.882-82.935   c0-4.357-3.622-8.148-5.785-10.412c-0.396-0.416-0.747-0.78-1.009-1.086c-2.083-2.422-4.825-5.412-8.001-8.872   c-2.092-2.282-4.396-4.796-6.879-7.546c-3.972-4.393-8.401-8.412-12.686-12.297c-5.269-4.775-10.714-9.713-15.189-15.28   c-6.688-8.317-12.871-22.874-11.752-34.606c0.17-1.77-0.243-3.299-1.162-4.309c-1.02-1.123-2.62-1.473-4.029-0.916   c-1.411-0.557-3.012-0.207-4.03,0.916c-0.918,1.01-1.333,2.539-1.161,4.309c1.117,11.732-5.066,26.289-11.752,34.606   c-4.477,5.567-9.922,10.505-15.191,15.28c-4.283,3.885-8.715,7.904-12.685,12.297c-2.482,2.75-4.789,5.264-6.88,7.546   c-3.177,3.46-5.917,6.45-8.002,8.872c-0.262,0.306-0.61,0.67-1.007,1.086c-2.163,2.264-5.786,6.055-5.786,10.434   c0.459,43.157,6.916,74.373,8.883,82.913l0.069,0.302c1.303,5.898,3.31,11.641,5.246,17.191c0,0,3.574,10.912,4.061,12.719   c0.267,0.984,0.46,1.711,0.538,1.962c2.945,9.623,9.801,35.126,9.801,64.005c0,22.418-11.355,33.871-14.257,34.775   c-7.366,2.293-9.059,2.533-15.361,3.428c-2.051,0.289-4.569,0.647-7.907,1.164c-36.177,3.85-40.083,21.809-40.083,29.353   c0,2.022,1.047,8.592,5.822,14.649c4.291,5.442,12.837,11.933,29.195,11.933c2.454,0,5.05-0.146,7.718-0.434   c10.887-1.17,21.859-2.928,32.468-4.627c3.854-0.617,7.701-1.233,11.555-1.824c5.134-0.787,14.387-1.309,27.498-1.549   c0.614-0.012,1.041-0.021,1.248-0.027c0.207,0.006,0.634,0.016,1.246,0.027c13.113,0.24,22.365,0.762,27.5,1.549   c3.852,0.591,7.7,1.207,11.553,1.824c10.61,1.699,21.583,3.457,32.468,4.627c2.668,0.287,5.264,0.434,7.718,0.434   c16.361,0,24.909-6.488,29.197-11.933c4.775-6.056,5.82-12.628,5.82-14.649C300.503,335.874,296.599,317.915,260.422,314.065z    M204.132,167.036c-0.539,0-1.05-0.117-1.567-0.362c-1.683-0.671-3.841-3.886-4.042-5.134c8.382-5.832,14.045-16.91,14.045-29.625   c0-18.777-1.982-34-27.567-34s-27.567,15.223-27.567,34c0,12.715,5.663,23.793,14.044,29.625c-0.197,1.245-2.404,4.307-4.041,5.134   c-0.516,0.245-1.026,0.362-1.567,0.362c-5.387,0.002-12.139-11.797-13.912-16.492c-3.021-7.977-6.792-21.688-7.601-41.697   l-0.033-0.77c-0.207-4.215,6.142-14.994,6.983-16.838c1.156-2.539,16.154-25.4,20.608-30.816   c1.577-1.915,9.566-12.523,13.087-17.205c3.52,4.682,11.508,15.29,13.084,17.205c4.457,5.416,19.451,28.277,20.609,30.816   c0.842,1.844,7.191,12.623,6.985,16.838l-0.033,0.77c-0.81,20.01-4.579,33.721-7.603,41.697   C216.271,155.238,209.521,167.036,204.132,167.036z" fill="#66101F" data-original="#000000" style="" class=""/>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                 </g>
+                              </svg>
+                           </small>
+                        </div>
+                        <div class="">
+                           <p class="text-capitalize mb-1"> Yoga</p>
+                           <h4>30%</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card card-block card-stretch card-height">
+                  <div class="card-body">
+                     <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-inline-block relative progress-chart-center mr-3">
+                           <div id="circle-progress-07" class="circle-progress circle-progress-success" data-min-value="0" data-max-value="100" data-value="60" data-type="percent"></div>
+                           <small>
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1" width="24" height="24" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                 <g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <path d="m412 285c-1.231 0-2.456.03-3.677.075l-18.213-96.071h10.89c8.284 0 15-6.716 15-15s-6.716-15-15-15h-60.411l-32.275-27.083-18.662-15.66c2.618.476 5.31.738 8.064.738 24.813 0 45-20.187 45-45s-20.187-45-45-45-45 20.187-45 45c0 6.626 1.451 12.916 4.034 18.585-18.037-8.507-40.269-4.207-53.677 11.771l-38.567 45.963c-25.937 30.911-26.037 75.015-2.658 105.913l-23.36 38.475c-11.854-4.96-24.856-7.706-38.488-7.706-55.14 0-100 44.859-100 100s44.86 100 100 100c50.043 0 91.616-36.95 98.875-85h37.125v10c0 8.284 6.716 15 15 15s15-6.716 15-15v-20.803l78.441-129.197h28.595l5.812 30.656c-38.895 13.707-66.848 50.819-66.848 94.344 0 55.141 44.859 100 100 100s100-44.859 100-100-44.859-100-100-100zm-312 170c-38.598 0-70-31.402-70-70s31.402-70 70-70c7.928 0 15.544 1.344 22.655 3.784l-35.477 58.432c-2.812 4.631-2.908 10.419-.25 15.141s7.654 7.643 13.072 7.643h68.365c-6.888 31.411-34.916 55-68.365 55zm26.655-85 21.623-35.615c9.907 9.454 17.051 21.77 20.086 35.615zm109.345 0h-37.125c-3.723-24.646-16.477-46.368-34.768-61.685l19.858-32.708 52.035 43.663zm30-38.609v-19.116h-.007c0-1.709-.284-3.438-.892-5.114l-17.103-47.161h61.347zm-23.689-101.391c.957-3.257 2.566-6.336 4.81-9.01l49.858-59.419 28.51 23.923c2.811 2.358 6.231 3.51 9.634 3.51h.008 24.447l7.771 40.996zm169.689 225c-38.598 0-70-31.402-70-70 0-28.851 17.548-53.676 42.529-64.377l12.734 67.171c1.364 7.195 7.656 12.209 14.721 12.209.927 0 1.866-.087 2.811-.266 8.14-1.543 13.486-9.392 11.943-17.531l-12.731-67.155c37.67 1.068 67.993 32.024 67.993 69.949 0 38.598-31.402 70-70 70z" fill="#23967F" data-original="#000000" style="" class=""/>
+                                    </g>
+                                 </g>
+                              </svg>
+                           </small>
+                        </div>
+                        <div class="">
+                           <p class="text-capitalize mb-1">Riding</p>
+                           <h4>60KM</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-6 col-xl-4">
+         <div class="card card-block card-stretch card-height overflow-hidden">
+            <div class="card-header d-flex justify-content-between flex-wrap">
+               <div class="header-title">
+                  <h4 class="card-title">Activities</h4>
+               </div>
+            </div>
+            <div class="card-body">
+               <div class="iq-details d-flex justify-content-between">
+                  <div>Gym</div>
+                  <div>50%</div>
+               </div>
+               <div class="iq-progress-bar bg-primary-light mt-2">
+                  <span class="bg-primary iq-progress progress-1" data-percent="50">
+                  </span>
+               </div>
+               <div class="iq-details mt-4 d-flex justify-content-between">
+                  <div>Yoga</div>
+                  <div>40%</div>
+               </div>
+               <div class="iq-progress-bar bg-success-light mt-2">
+                  <span class="bg-success iq-progress progress-1" data-percent="40">
+                  </span>
+               </div>
+               <div class="iq-details mt-4 d-flex justify-content-between">
+                  <div>Stretching</div>
+                  <div>80%</div>
+               </div>
+               <div class="iq-progress-bar bg-danger-light mt-2">
+                  <span class="bg-danger iq-progress progress-1" data-percent="80">
+                  </span>
+               </div>
+               <div class="iq-details mt-4  d-flex justify-content-between">
+                  <div>Jogging</div>
+                  <div>60%</div>
+               </div>
+               <div class="iq-progress-bar bg-info-light mt-2">
+                  <span class="bg-info iq-progress progress-1" data-percent="60">
+                  </span>
+               </div>
+            </div>
+            <div class="card-body p-0">
+               <div id="dash-chart-1"></div>
+            </div>
+         </div>
+      </div>
+   <div class="col-lg-6 col-xl-4">
+       <div class="card card-block card-stretch card-height">
+                <div class="card-header d-flex justify-content-between">
+                <div class="header-title">
+                    <h4 class="card-title">Routine</h4>
+                </div>
+                </div>
+                <div class="card-body">
+                    <div class="iq-timeline0 m-0 d-flex align-items-center justify-content-between position-relative">
+                        <ul class="list-inline p-0 m-0">
+                            <li>
+                                <div class="timeline-dots1 border-primary text-primary"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                                 <g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M121,68.5H45c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S129.291,68.5,121,68.5z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M121,188.5H45c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S129.291,188.5,121,188.5z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M91,128.5H15c-8.291,0-15,6.709-15,15s6.709,15,15,15h76c8.291,0,15-6.709,15-15S99.291,128.5,91,128.5z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M482,203.5h-91v-60c0-26.346-32.229-40.218-51.22-21.202L219.789,242.289c-11.719,11.719-11.719,30.703,0,42.422    l68.789,68.789l-83.789,83.789c-11.719,11.719-11.719,30.703,0,42.422c11.718,11.718,30.703,11.719,42.422,0l105-105    c11.719-11.719,11.719-30.703,0-42.422L283.422,263.5L331,215.922V233.5c0,16.567,13.433,30,30,30h121c16.567,0,30-13.433,30-30    S498.567,203.5,482,203.5z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M280.14,51.04c-11.924-7.925-27.744-6.357-37.852,3.75l-82.5,82.5c-11.719,11.719-11.719,30.703,0,42.422    s30.704,11.718,42.423-0.001l65.112-65.112l21.934,15.8l29.306-29.306c4.902-4.902,10.684-8.707,17.007-11.678L280.14,51.04z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <path d="M198.578,305.922c-7.601-7.601-12.675-16.956-15.35-27.072L24.789,437.289c-11.719,11.719-11.719,30.703,0,42.422    c11.718,11.718,30.703,11.719,42.422,0l152.578-152.578L198.578,305.922z" fill="#081523" data-original="#000000" style="" class=""></path>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <g>
+                                          <circle cx="406" cy="68.5" r="45" fill="#081523" data-original="#000000" style="" class=""></circle>
+                                       </g>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                    <g xmlns="http://www.w3.org/2000/svg"></g>
+                                 </g>
+                              </svg>
+                                </div>
+                                <h5 class="float-left mb-1">Jogging</h5>
+                                <div class="d-inline-block w-100">
+                                <p class="text-muted">24 Dec 6:00 AM</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-dots1 border-danger text-danger">
+                                   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="24" x="0" y="0" viewBox="0 0 510 510" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg"><path d="m241 67.5h30v45h-30z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m391 67.5h30v45h-30z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m316 37.5h30v75h-30z" fill="#66101f" data-original="#000000" style="" class=""/><g><path d="m510 472.5h-510v-60h510z" fill="#66101f" data-original="#000000" style="" class=""/></g><g><path d="m50 303.378c-29.285 11.892-50 40.619-50 74.122v5h50z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m135 267.5h-20.522c-19.011 0-34.478 15.467-34.478 34.478v80.522h55z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m214.995 232.5h-37.78c-6.735 0-12.214 5.479-12.214 12.214v137.786h60v-139.994c-.001-5.518-4.489-10.006-10.006-10.006z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m479.473 186.973h-29.473v-44.473h-240v60h4.995c20.363 0 37.209 15.296 39.681 35h20.847c24.95 0 46.62 14.255 57.335 35.039 53.566 1.358 92.142 40.872 92.142 94.961v15h13.751c7.1-10.648 11.249-23.424 11.249-37.154v-7.846h29.473c16.833 0 30.527-13.694 30.527-30.527v-89.473c0-16.833-13.694-30.527-30.527-30.527zm.527 120c0 .291-.236.527-.527.527h-29.473v-90.527h29.473c.291 0 .527.236.527.527z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m340 303.103v79.397h55v-15c0-35.442-21.708-60.283-55-64.397z" fill="#66101f" data-original="#000000" style="" class=""/><path d="m275.522 267.5h-20.522v115h55v-80.522c0-19.011-15.467-34.478-34.478-34.478z" fill="#66101f" data-original="#000000" style="" class=""/></g></g></g></svg>
+                                </div>
+                                <h5 class="float-left mb-1">Breakfast</h5>
+                                <div class="d-inline-block w-100">
+                                <p class="text-muted">24 Dec 8:00 AM</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-dots1 border-success text-success"> <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 508.46 508.46" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M254.223,174.787c28.028,0,50.832-22.803,50.832-50.831c0-28.028-22.804-50.831-50.832-50.831   c-28.021,0-50.817,22.803-50.817,50.831C203.406,151.984,226.202,174.787,254.223,174.787z" fill="#23967F" data-original="#000000" style="" class=""/>
+                                       <path d="M454.05,48.595c0-6.247-5.018-11.314-11.241-11.409V24.262c0-8.616-7.009-15.625-15.623-15.625   c-2.43,0-4.721,0.573-6.773,1.566C417.081,4.129,410.625,0,403.223,0c-10.803,0-19.594,8.79-19.594,19.593v17.584h-10.555   c-2.689-8.588-10.721-14.838-20.184-14.838c-9.464,0-17.494,6.25-20.184,14.838H175.751c-2.689-8.588-10.72-14.838-20.184-14.838   c-9.462,0-17.492,6.25-20.182,14.838h-10.555V19.593C124.831,8.79,116.041,0,105.239,0c-7.403,0-13.857,4.129-17.189,10.203   c-2.053-0.993-4.346-1.566-6.774-1.566c-8.614,0-15.624,7.01-15.624,15.625v12.923C59.428,37.28,54.41,42.348,54.41,48.595   c0,6.247,5.019,11.313,11.241,11.408v12.923c0,8.615,7.01,15.624,15.624,15.624c2.429,0,4.721-0.573,6.772-1.565   c3.334,6.073,9.788,10.202,17.191,10.202c10.803,0,19.592-8.789,19.592-19.592V60.012h9.593v83.715   c0,10.401,5.017,22.918,12.196,30.437l46.121,48.298v260.332c0,14.152,11.514,25.667,25.666,25.667   c14.153,0,25.667-11.515,25.667-25.667V354.518h20.255v128.103c0,14.152,11.514,25.666,25.666,25.666   c14.152,0,25.665-11.514,25.665-25.666l0.06-260.159l46.123-48.299c7.18-7.521,12.195-20.038,12.195-30.437V60.012h9.592v17.581   c0,10.804,8.791,19.594,19.594,19.594c7.402,0,13.856-4.129,17.189-10.203c2.053,0.993,4.344,1.566,6.773,1.566   c8.614,0,15.623-7.009,15.623-15.624V60.003C449.032,59.908,454.05,54.842,454.05,48.595z M331.745,143.281   c-0.121,0.517-0.533,1.541-0.804,2.003l-39.964,41.853h-73.494l-39.965-41.854c-0.271-0.46-0.684-1.484-0.805-2.002v-83.27h155.031   V143.281z" fill="#23967F" data-original="#000000" style="" class=""/>
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    <g xmlns="http://www.w3.org/2000/svg">
+                                    </g>
+                                    </g></svg>
+                                </div>
+                                <h5 class="float-left mb-1">Gym</h5>
+                                <div class="d-inline-block w-100">
+                                <p class="text-muted">24 Dec 9:00 AM</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-dots1 border-info text-info"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="18" height="24" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="m35.5 21c2.072.592 3.5 2.485 3.5 4.64v9.16c1.961.531 3.852 1.322 5.617 2.359l.383.225v-11.744c0-2.155 1.428-4.048 3.5-4.64s3.5-2.485 3.5-4.64v-12.36c0-1.105-.895-2-2-2s-2 .895-2 2v10c0 1.105-.895 2-2 2s-2-.895-2-2v-10c0-1.105-.895-2-2-2s-2 .895-2 2v10c0 1.105-.895 2-2 2s-2-.895-2-2v-10c0-1.105-.895-2-2-2s-2 .895-2 2v12.36c0 2.155 1.428 4.048 3.5 4.64z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m3 54.03v.97c0 2.505 11.032 6 29 6s29-3.495 29-6v-.97c-4.684 3.273-16.898 4.97-29 4.97s-24.316-1.697-29-4.97z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m25.782 38.481c.014-.009-.016.036-.069.09-.055.054-.097.093-.128.132-.004.038-.028.174-.084.417-.262 1.147-.748 3.28-2.92 5.451-2.173 2.172-4.306 2.659-5.451 2.92-.242.055-.379.08-.475.118.015 0-.022.041-.075.094-.057.056-.099.095-.13.134-.004.038-.028.175-.084.418-.261 1.146-.747 3.278-2.921 5.451l-.707.707-2.185-2.185c-.195.84-.338 1.692-.428 2.553 5.017 1.267 12.499 2.219 21.875 2.219 1.469 0 2.887-.026 4.262-.07-2.014-1.669-3.262-4.179-3.262-6.93 0-4.962 4.037-9 9-9 .171 0 .34.029.511.039.27-.771.636-1.496 1.094-2.155-3.209-1.883-6.849-2.884-10.605-2.884l-1.903.001c-1.955 1.693-3.805 2.127-4.843 2.363-.239.055-.376.079-.472.117zm-4.782 14.519h-2v-2h2zm4 2h-2v-2h2zm0-6h-2v-2h2zm7-9h2v2h-2zm-1 15h-2v-2h2zm0-7h-2v-2h2zm-4-9h2v2h-2z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m51 53c-.173 0-.341-.016-.512-.026-.364 1.032-.913 1.987-1.614 2.819 7.74-1.243 12.126-3.214 12.126-4.793 0-.497-.657-1.296-2.43-2.151-1.602 2.492-4.393 4.151-7.57 4.151z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m42 43c-3.859 0-7 3.14-7 7 0 3.161 2.113 5.913 5.149 6.744 1.715-.111 3.336-.256 4.862-.428 1.573-.753 2.811-2.085 3.466-3.682-2.756-.807-4.961-2.899-5.932-5.581-.179-.033-.361-.053-.545-.053-1.654 0-3 1.346-3 3s1.346 3 3 3v2c-2.757 0-5-2.243-5-5s2.243-5 5-5c.02 0 .04.005.06.005-.037-.33-.06-.665-.06-1.005 0-.337.022-.668.058-.996-.019 0-.039-.004-.058-.004z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m44 44c0 3.86 3.141 7 7 7s7-3.14 7-7-3.141-7-7-7-7 3.14-7 7zm12 0c0 2.757-2.243 5-5 5s-5-2.243-5-5 2.243-5 5-5 5 2.243 5 5z" fill="#5296a5" data-original="#000000" style=""/><circle xmlns="http://www.w3.org/2000/svg" cx="51" cy="44" r="3" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m8.169 54.237c.149-1.237.402-2.455.747-3.645l-2.262-2.263c-2.661 1.032-3.654 2.038-3.654 2.671 0 1.016 1.815 2.194 5.169 3.237z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m10.569 46.819c.226-.99.482-2.113 1.812-3.442 1.33-1.33 2.452-1.586 3.443-1.812.867-.198 1.552-.354 2.474-1.276.921-.921 1.077-1.606 1.275-2.473.226-.99.481-2.112 1.81-3.441 1.328-1.328 2.45-1.583 3.44-1.809.661-.151 1.216-.279 1.85-.739l-1.549-1.549c-.175.059-.386.109-.671.174-1.082.246-2.716.617-4.48 2.382-1.765 1.764-2.138 3.399-2.384 4.481-.186.811-.248 1.021-.747 1.519-.502.5-.711.562-1.519.747-1.083.247-2.718.62-4.483 2.385-1.764 1.764-2.139 3.399-2.386 4.481-.066.289-.116.501-.177.678l1.548 1.549c.464-.637.593-1.193.744-1.855z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m22.797 35.789c-.921.921-1.076 1.605-1.274 2.472-.226.99-.481 2.113-1.811 3.442s-2.452 1.585-3.442 1.812c-.867.198-1.552.354-2.475 1.276-.922.922-1.078 1.607-1.276 2.474-.19.835-.41 1.766-1.268 2.833l1.453 1.453c1.197-1.476 1.502-2.811 1.714-3.739.185-.81.247-1.021.749-1.522.5-.5.71-.562 1.518-.747 1.083-.247 2.719-.62 4.483-2.385 1.764-1.764 2.137-3.399 2.384-4.48.186-.81.248-1.019.747-1.52.499-.498.708-.56 1.513-.744.929-.211 2.264-.514 3.739-1.711l-1.453-1.453c-1.066.856-1.996 1.075-2.829 1.266-.868.197-1.552.353-2.472 1.273z" fill="#5296a5" data-original="#000000" style=""/><path xmlns="http://www.w3.org/2000/svg" d="m18 23.808v8.226c.177-.204.354-.409.56-.614 1.217-1.217 2.415-1.895 3.44-2.31v-5.302c0-1.663.733-3.242 2.065-4.447 1.866-1.687 2.935-4.37 2.935-7.361 0-5.047-3.075-9-7-9s-7 3.953-7 9c0 2.991 1.069 5.674 2.935 7.361 1.332 1.205 2.065 2.784 2.065 4.447z" fill="#5296a5" data-original="#000000" style=""/></g></svg>
+                                </div>
+                                <h5 class="float-left mb-1">Lunch</h5>
+                                <div class="d-inline-block w-100">
+                                <p class="text-muted">24 Dec 12:00 PM</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+             </div>
+         </div>
+   </div>
+   <div class="col-lg-12 col-xl-8">
+      <div class="card card-block card-stretch card-height">
+         <div class="card-header d-flex justify-content-between">
+            <div class="header-title">
+               <h4 class="card-title">Overall User's</h4>
+            </div>
+            <div class="card-header-toolbar d-flex align-items-center flex-wrap">
+               <div class="dropdown">
+                  <span class="dropdown-toggle btn btn-outline-primary btn-sm" id="dropdownMenuButton2"
+                     data-toggle="dropdown">
+                  Monthly<i class="ri-arrow-down-s-line ml-1"></i>
+                  </span>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton2">
+                     <a class="dropdown-item" href="#">Daily</a>
+                     <a class="dropdown-item" href="#">Monthly</a>
+                     <a class="dropdown-item" href="#">Yearly</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="card-body row">
+            <div class="col-md-7">
+               <div id="chart-page-2" class="dash-chart-03"></div>
+            </div>
+            <div class="col-md-5">
+               <ul class="m-0 p-0 list-inline">
+                    <li class="position-relative border p-3 rounded">
+                        <div class="d-flex justify-content-between align-items-center">
+                                <div class=" align-items-center card-total-sale ">
+                                     <div class="d-flex align-items-center  card-total-sale justify-content-between mt-3">
+                                    <div class="card-text">
+                                       <p class="mb-0">Total User’s </p>                
+                                  <h3>4598</h3>
+                               </div>
+                                </div>  
+                            </div>                              
+                              <div id="dash-chart-02"></div>
+                        </div>
+                    </li>
+                    <li class="position-relative border p-3 rounded mt-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class=" align-items-center card-total-sale ">
+                                <div class="d-flex align-items-center  card-total-sale justify-content-between mt-3">
+                                    <div class="card-text">
+                                       <p class="mb-0">Total Trainer’s </p>               
+                                    <h3>2597</h3>
+                               </div>
+                            </div>  
+                            </div>                              
+                              <div id="dash-chart-09"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-6 col-xl-4">
+      <div class="card card-block card-stretch card-height">
+         <div class="card-header d-flex justify-content-between flex-wrap">
+            <div class="header-title">
+               <h4 class="card-title">Trainers</h4>
+            </div>
+            <a href="trainers.html" class="btn btn-outline-primary btn-sm">View All</a>
+         </div>
+         <div class="card-body">
+            <ul class="list-inline p-0 m-0">
+               <li class="media  mb-4">
+                  <a href="JavaScript:Void(0);"><img src="../assets/images/profile/011.jpg"
+                     class="img-fluid avatar-50 avatar-md-70 rounded-small" alt="image"></a>
+                  <div class="media-body ml-3">
+                     <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <h5>Julia Met</h5>
+                        <div class="text-danger">
+                           <b>-$30.26</b>
+                        </div>
+                     </div>
+                     <p class="mb-0 text-muted">22 Jan 2021</p>
+                  </div>
+               </li>
+               <li class="media mb-4">
+                  <a href="JavaScript:Void(0);"><img src="../assets/images/profile/022.jpg"
+                     class="img-fluid avatar-50 avatar-md-70 rounded-small" alt="image"></a>
+                  <div class="media-body ml-3">
+                     <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="text-ellipsis short-1">Carolina Tens</h5>
+                        <div class="text-danger">
+                           <b>-$20.26</b>
+                        </div>
+                     </div>
+                     <p class="mb-0 text-muted">24 Jan 2021</p>
+                  </div>
+               </li>
+               <li class="media mb-4">
+                  <a href="JavaScript:Void(0);"><img src="../assets/images/profile/033.jpg"
+                     class="img-fluid avatar-50 avatar-md-70 rounded-small" alt="image"></a>
+                  <div class="media-body ml-3">
+                     <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <h5>Joan Watson</h5>
+                        <div class="text-success">
+                           <b>+$22.90</b>
+                        </div>
+                     </div>
+                     <p class="mb-0 text-muted">30 Jan 2021</p>
+                  </div>
+               </li>
+               <li class="media">
+                  <a href="JavaScript:Void(0);"><img src="../assets/images/profile/044.jpg"
+                     class="img-fluid avatar-50 avatar-md-70 rounded-small" alt="image"></a>
+                  <div class="media-body ml-3">
+                     <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <h5>Anna Mull</h5>
+                        <div class="text-success">
+                           <b>+$22.90</b>
+                        </div>
+                     </div>
+                     <p class="mb-0 text-muted">10 Feb 2021</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-6 col-xl-8">
+      <div class="card card-block card-stretch card-height">
+         <div class="card-header d-flex justify-content-between flex-wrap">
+            <div class="header-title">
+               <h4 class="card-title">Upcoming</h4>
+            </div>
+            <a href="calender.html" class="btn btn-outline-primary btn-sm">View All</a>
+         </div>
+         <div class="card-body">
+            <ul class="list-inline p-0 m-0">
+               <li class="d-flex align-items-center justify-content-between pb-3 border-bottom flex-wrap">
+                  <div class="icon iq-icon-box event-icon bg-primary rounded-small font-size-18 mr-0">
+                     <div class="date">23</div>
+                     <div class="month">Oct</div>
+                  </div>
+                  <div class="event-info ml-3">
+                     <h5>Long run marathon</h5>
+                     <p class="mb-0 text-muted">08 : 30 Am</p>
+                  </div>
+                  <div class="d-flex align-items-center font-size-18">
+                     <span class="mr-2"><i class="ri-edit-box-line edit-note1" data-toggle="tooltip" data-placement="top" title="Edit" ></i></span>
+                     <span><i class="ri-delete-bin-line text-danger"  data-toggle="tooltip" data-placement="top" title="Delete" ></i></span>
+                  </div>
+               </li>
+               <li class="d-flex align-items-center justify-content-between pb-3 pt-3 border-bottom flex-wrap">
+                  <div class="icon iq-icon-box event-icon bg-info rounded-small font-size-18 mr-0">
+                     <div class="date">25</div>
+                     <div class="month">Oct</div>
+                  </div>
+                  <div class="event-info ml-3">
+                     <h5>Cycling marathon</h5>
+                     <p class="mb-0 text-muted">08 : 45 Am</p>
+                  </div>
+                  <div class="d-flex align-items-center font-size-18">
+                     <span class="mr-2"><i class="ri-edit-box-line edit-note1" data-toggle="tooltip" data-placement="top" title="Edit" ></i></span>
+                     <span><i class="ri-delete-bin-line text-danger"  data-toggle="tooltip" data-placement="top" title="Delete" ></i></span>
+                  </div>
+               </li>
+               <li class="d-flex align-items-center justify-content-between pb-3 pt-3 border-bottom flex-wrap">
+                  <div class="icon iq-icon-box event-icon bg-success rounded-small font-size-18 mr-0">
+                     <div class="date">23</div>
+                     <div class="month">Oct</div>
+                  </div>
+                  <div class="event-info ml-3">
+                     <h5>Yoga marathon</h5>
+                     <p class="mb-0 text-muted">08 : 30 Am</p>
+                  </div>
+                  <div class="d-flex align-items-center font-size-18">
+                     <span class="mr-2"><i class="ri-edit-box-line edit-note1" data-toggle="tooltip" data-placement="top" title="Edit" ></i></span>
+                     <span><i class="ri-delete-bin-line text-danger"  data-toggle="tooltip" data-placement="top" title="Delete" ></i></span>
+                  </div>
+               </li>
+               <li class="d-flex align-items-center justify-content-between pt-3 flex-wrap">
+                  <div class="icon iq-icon-box event-icon bg-danger rounded-small font-size-18 mr-0">
+                     <div class="date">23</div>
+                     <div class="month">Oct</div>
+                  </div>
+                  <div class="event-info ml-3">
+                     <h5>BodyBuilding Event</h5>
+                     <p class="mb-0 text-muted">08 : 30 Am</p>
+                  </div>
+                  <div class="d-flex align-items-center font-size-18">
+                     <span class="mr-2"><i class="ri-edit-box-line edit-note1" data-toggle="tooltip" data-placement="top" title="Edit" ></i></span>
+                     <span><i class="ri-delete-bin-line text-danger"  data-toggle="tooltip" data-placement="top" title="Delete" ></i></span>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Page end  -->
+</div>
+      </div>
+    </div>
+    <!-- Wrapper End-->
+    <footer class="iq-footer">
+        <div class="p-3 d-flex justify-content-between align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="terms-of-service.html">Terms of Use</a></li>
+            </ul>
+            <div class="copy-right">
+                <span class="mr-1"><script>document.write(new Date().getFullYear())</script>©</span> <a href="#" class="">Yofit</a>.
+            </div>
+        </div>
+    </footer>
+    <!-- Backend Bundle JavaScript -->
+    <script src="../assets/js/backend-bundle.min.js"></script>
+    
+    <!-- Table Treeview JavaScript -->
+    <script src="../assets/js/table-treeview.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script async src="../assets/js/chart-custom.js"></script>
+    
+    <!-- chart JavaScript -->
+    <script src="../assets/js/charts/dashboard-1.js"></script>
+    
+    <!-- chart JavaScript -->
+    <script src="../assets/js/charts/reports.js"></script>
+    
+    <!-- app JavaScript -->
+    <script src="../assets/js/app.js"></script>
+    
+    <!-- moment JavaScript -->
+    <script src="../assets/vendor/moment.min.js"></script>
+    
+    
+    
+    
+  </body>
+
+<!-- Mirrored from templates.iqonic.design/yofit/html/backend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Feb 2023 06:31:15 GMT -->
+</html>
